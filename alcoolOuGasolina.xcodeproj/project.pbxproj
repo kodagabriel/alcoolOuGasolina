@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC50AC332578065E00B86EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50AC322578065E00B86EC2 /* AppDelegate.swift */; };
+		FC50AC352578065E00B86EC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50AC342578065E00B86EC2 /* SceneDelegate.swift */; };
+		FC50AC372578065E00B86EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50AC362578065E00B86EC2 /* ViewController.swift */; };
+		FC50AC3A2578065E00B86EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC50AC382578065E00B86EC2 /* Main.storyboard */; };
+		FC50AC3C2578066200B86EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC50AC3B2578066200B86EC2 /* Assets.xcassets */; };
+		FC50AC3F2578066200B86EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC50AC3D2578066200B86EC2 /* LaunchScreen.storyboard */; };
+		FC50AC4A2578066200B86EC2 /* alcoolOuGasolinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50AC492578066200B86EC2 /* alcoolOuGasolinaTests.swift */; };
+		FC50AC552578066300B86EC2 /* alcoolOuGasolinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC50AC542578066300B86EC2 /* alcoolOuGasolinaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC50AC462578066200B86EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC50AC272578065E00B86EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC50AC2E2578065E00B86EC2;
+			remoteInfo = alcoolOuGasolina;
+		};
+		FC50AC512578066200B86EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC50AC272578065E00B86EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC50AC2E2578065E00B86EC2;
+			remoteInfo = alcoolOuGasolina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC50AC2F2578065E00B86EC2 /* alcoolOuGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alcoolOuGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC50AC322578065E00B86EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC50AC342578065E00B86EC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC50AC362578065E00B86EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC50AC392578065E00B86EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC50AC3B2578066200B86EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC50AC3E2578066200B86EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC50AC402578066200B86EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC50AC452578066200B86EC2 /* alcoolOuGasolinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alcoolOuGasolinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC50AC492578066200B86EC2 /* alcoolOuGasolinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alcoolOuGasolinaTests.swift; sourceTree = "<group>"; };
+		FC50AC4B2578066200B86EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC50AC502578066200B86EC2 /* alcoolOuGasolinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alcoolOuGasolinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC50AC542578066300B86EC2 /* alcoolOuGasolinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alcoolOuGasolinaUITests.swift; sourceTree = "<group>"; };
+		FC50AC562578066300B86EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC50AC2C2578065E00B86EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50AC422578066200B86EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50AC4D2578066200B86EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC50AC262578065E00B86EC2 = {
+			isa = PBXGroup;
+			children = (
+				FC50AC312578065E00B86EC2 /* alcoolOuGasolina */,
+				FC50AC482578066200B86EC2 /* alcoolOuGasolinaTests */,
+				FC50AC532578066200B86EC2 /* alcoolOuGasolinaUITests */,
+				FC50AC302578065E00B86EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC50AC302578065E00B86EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC50AC2F2578065E00B86EC2 /* alcoolOuGasolina.app */,
+				FC50AC452578066200B86EC2 /* alcoolOuGasolinaTests.xctest */,
+				FC50AC502578066200B86EC2 /* alcoolOuGasolinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC50AC312578065E00B86EC2 /* alcoolOuGasolina */ = {
+			isa = PBXGroup;
+			children = (
+				FC50AC322578065E00B86EC2 /* AppDelegate.swift */,
+				FC50AC342578065E00B86EC2 /* SceneDelegate.swift */,
+				FC50AC652578067900B86EC2 /* Home */,
+				FC50AC382578065E00B86EC2 /* Main.storyboard */,
+				FC50AC3B2578066200B86EC2 /* Assets.xcassets */,
+				FC50AC3D2578066200B86EC2 /* LaunchScreen.storyboard */,
+				FC50AC402578066200B86EC2 /* Info.plist */,
+			);
+			path = alcoolOuGasolina;
+			sourceTree = "<group>";
+		};
+		FC50AC482578066200B86EC2 /* alcoolOuGasolinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC50AC492578066200B86EC2 /* alcoolOuGasolinaTests.swift */,
+				FC50AC4B2578066200B86EC2 /* Info.plist */,
+			);
+			path = alcoolOuGasolinaTests;
+			sourceTree = "<group>";
+		};
+		FC50AC532578066200B86EC2 /* alcoolOuGasolinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC50AC542578066300B86EC2 /* alcoolOuGasolinaUITests.swift */,
+				FC50AC562578066300B86EC2 /* Info.plist */,
+			);
+			path = alcoolOuGasolinaUITests;
+			sourceTree = "<group>";
+		};
+		FC50AC652578067900B86EC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC50AC6A2578069500B86EC2 /* View */,
+				FC50AC692578068600B86EC2 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC50AC692578068600B86EC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC50AC362578065E00B86EC2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC50AC6A2578069500B86EC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC50AC2E2578065E00B86EC2 /* alcoolOuGasolina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC50AC592578066300B86EC2 /* Build configuration list for PBXNativeTarget "alcoolOuGasolina" */;
+			buildPhases = (
+				FC50AC2B2578065E00B86EC2 /* Sources */,
+				FC50AC2C2578065E00B86EC2 /* Frameworks */,
+				FC50AC2D2578065E00B86EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alcoolOuGasolina;
+			productName = alcoolOuGasolina;
+			productReference = FC50AC2F2578065E00B86EC2 /* alcoolOuGasolina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC50AC442578066200B86EC2 /* alcoolOuGasolinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC50AC5C2578066300B86EC2 /* Build configuration list for PBXNativeTarget "alcoolOuGasolinaTests" */;
+			buildPhases = (
+				FC50AC412578066200B86EC2 /* Sources */,
+				FC50AC422578066200B86EC2 /* Frameworks */,
+				FC50AC432578066200B86EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC50AC472578066200B86EC2 /* PBXTargetDependency */,
+			);
+			name = alcoolOuGasolinaTests;
+			productName = alcoolOuGasolinaTests;
+			productReference = FC50AC452578066200B86EC2 /* alcoolOuGasolinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC50AC4F2578066200B86EC2 /* alcoolOuGasolinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC50AC5F2578066300B86EC2 /* Build configuration list for PBXNativeTarget "alcoolOuGasolinaUITests" */;
+			buildPhases = (
+				FC50AC4C2578066200B86EC2 /* Sources */,
+				FC50AC4D2578066200B86EC2 /* Frameworks */,
+				FC50AC4E2578066200B86EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC50AC522578066200B86EC2 /* PBXTargetDependency */,
+			);
+			name = alcoolOuGasolinaUITests;
+			productName = alcoolOuGasolinaUITests;
+			productReference = FC50AC502578066200B86EC2 /* alcoolOuGasolinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC50AC272578065E00B86EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FC50AC2E2578065E00B86EC2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FC50AC442578066200B86EC2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FC50AC2E2578065E00B86EC2;
+					};
+					FC50AC4F2578066200B86EC2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FC50AC2E2578065E00B86EC2;
+					};
+				};
+			};
+			buildConfigurationList = FC50AC2A2578065E00B86EC2 /* Build configuration list for PBXProject "alcoolOuGasolina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC50AC262578065E00B86EC2;
+			productRefGroup = FC50AC302578065E00B86EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC50AC2E2578065E00B86EC2 /* alcoolOuGasolina */,
+				FC50AC442578066200B86EC2 /* alcoolOuGasolinaTests */,
+				FC50AC4F2578066200B86EC2 /* alcoolOuGasolinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC50AC2D2578065E00B86EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC50AC3F2578066200B86EC2 /* LaunchScreen.storyboard in Resources */,
+				FC50AC3C2578066200B86EC2 /* Assets.xcassets in Resources */,
+				FC50AC3A2578065E00B86EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50AC432578066200B86EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50AC4E2578066200B86EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC50AC2B2578065E00B86EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC50AC372578065E00B86EC2 /* ViewController.swift in Sources */,
+				FC50AC332578065E00B86EC2 /* AppDelegate.swift in Sources */,
+				FC50AC352578065E00B86EC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50AC412578066200B86EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC50AC4A2578066200B86EC2 /* alcoolOuGasolinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC50AC4C2578066200B86EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC50AC552578066300B86EC2 /* alcoolOuGasolinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC50AC472578066200B86EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC50AC2E2578065E00B86EC2 /* alcoolOuGasolina */;
+			targetProxy = FC50AC462578066200B86EC2 /* PBXContainerItemProxy */;
+		};
+		FC50AC522578066200B86EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC50AC2E2578065E00B86EC2 /* alcoolOuGasolina */;
+			targetProxy = FC50AC512578066200B86EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC50AC382578065E00B86EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC50AC392578065E00B86EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC50AC3D2578066200B86EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC50AC3E2578066200B86EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC50AC572578066300B86EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC50AC582578066300B86EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC50AC5A2578066300B86EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alcoolOuGasolina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koda.alcoolOuGasolina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC50AC5B2578066300B86EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alcoolOuGasolina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koda.alcoolOuGasolina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC50AC5D2578066300B86EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alcoolOuGasolinaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koda.alcoolOuGasolinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alcoolOuGasolina.app/alcoolOuGasolina";
+			};
+			name = Debug;
+		};
+		FC50AC5E2578066300B86EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alcoolOuGasolinaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koda.alcoolOuGasolinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alcoolOuGasolina.app/alcoolOuGasolina";
+			};
+			name = Release;
+		};
+		FC50AC602578066300B86EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alcoolOuGasolinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koda.alcoolOuGasolinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alcoolOuGasolina;
+			};
+			name = Debug;
+		};
+		FC50AC612578066300B86EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alcoolOuGasolinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koda.alcoolOuGasolinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alcoolOuGasolina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC50AC2A2578065E00B86EC2 /* Build configuration list for PBXProject "alcoolOuGasolina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC50AC572578066300B86EC2 /* Debug */,
+				FC50AC582578066300B86EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC50AC592578066300B86EC2 /* Build configuration list for PBXNativeTarget "alcoolOuGasolina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC50AC5A2578066300B86EC2 /* Debug */,
+				FC50AC5B2578066300B86EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC50AC5C2578066300B86EC2 /* Build configuration list for PBXNativeTarget "alcoolOuGasolinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC50AC5D2578066300B86EC2 /* Debug */,
+				FC50AC5E2578066300B86EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC50AC5F2578066300B86EC2 /* Build configuration list for PBXNativeTarget "alcoolOuGasolinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC50AC602578066300B86EC2 /* Debug */,
+				FC50AC612578066300B86EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC50AC272578065E00B86EC2 /* Project object */;
+}
